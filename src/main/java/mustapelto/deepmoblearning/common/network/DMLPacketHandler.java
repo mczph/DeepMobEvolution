@@ -23,10 +23,13 @@ public class DMLPacketHandler {
         network.registerMessage(MessageRedstoneMode.Handler.class, MessageRedstoneMode.class, id++, Side.SERVER);
         network.registerMessage(MessageLootFabOutputItem.Handler.class, MessageLootFabOutputItem.class, id++, Side.SERVER);
         network.registerMessage(MessageCraftingState.Handler.class, MessageCraftingState.class, id++, Side.CLIENT);
+        network.registerMessage(MessageTrialStart.Handler.class, MessageTrialStart.class, id++, Side.SERVER);
+        network.registerMessage(MessageUpdateTrialCapability.Handler.class, MessageUpdateTrialCapability.class, id++, Side.CLIENT);
+        network.registerMessage(MessageTrialOverlay.Handler.class, MessageTrialOverlay.class, id++, Side.CLIENT);
     }
 
     public static void sendToClient(IMessage message, World world, BlockPos pos) {
-        network.sendToAllTracking(message, new NetworkRegistry.TargetPoint(world.provider.getDimension(), pos.getX(), pos.getY(), pos.getZ(), 0));
+        network.sendToAllTracking(message, new NetworkRegistry.TargetPoint(world.provider.getDimension(), pos.getX(), pos.getY(), pos.getZ(), 10));
     }
 
     public static void sendToServer(IMessage message) {
