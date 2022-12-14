@@ -72,7 +72,7 @@ this means that you won't be able to use this mod for the time being.
 This mod uses the same item and block registry names as the original, so in-place updating should be possible as follows:
 - Always backup your world before changing mods!
 - Add the new mod jar and remove the old one
-- Run Minecraft once (**don't load your world!**) to generate the new config files (config/dml_relearned/*)
+- Run Minecraft once (**don't load your world!**) to generate the new config files (config/deepmobevolution/*)
 - Manually copy any changes you made to the original config (config/deepmoblearning.cfg) into the new files
 - The old config file can be deleted, it's not used by this mod
 - Now you can restart Minecraft and load your world - you're done!
