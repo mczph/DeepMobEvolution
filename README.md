@@ -1,26 +1,36 @@
-### This mod is currently in beta!
-This means **there will probably be bugs!** Do not use this on an important world that you don't have a backup of. **You have been warned!**
+# Deep Mob Evolution 
+This mod is a continuation of  mustapelto's rewrite of Deep Mob Learning, adding new features (see below) that would have been impossible to implement as modification of the original.
 
-Currently missing major features:
-- JEI integration (i.e. Loot Fabricator recipes in JEI)
-- Trials are only partially done. The blocks and items are there (so your old ones won't get deleted), but
-  not all functionality has been implemented yet. I recommend not to use any Trial-related stuff until they
-  are completed, or you may encounter bugs.
-    * This includes all Trial-specific entities, which Forge will complain about when loading a world saved with the original DML.
-    * Don't update a world from the original DML that currently has a Trial running - things will break! 
+---
 
-### NOTE: Updating from 0.8.0 to later versions
-The Loot Fabricator internals have been changed back to something resembling the original DML. This means that when updating
-from DML, you won't have to re-set Loot Fabricator outputs anymore! However, you *will* have to if you update from 0.8.0.
+### Changes compared to the original Deep Mob Learning
+- Fully JSON configurable Data Model types, tiers, trials, and Living Matter types
+    * New types, tiers and trials can be added or existing ones changed/removed
+    * Data Model, Pristine Matter and Living Matter textures for added types can be supplied by a resource pack or
+      through mods like ResourceLoader. Default fallback textures will be used if no matching texture files are found.
+    * Recipes for data models, as well as Living Matter products, are defined in the config files
+    * Data Model tiers can be added, removed and fully configured
+    * See SettingsGuide.txt in the mod's config folder for more info
+- Machines are redstone controllable (always on / on with signal / off with signal / always off)
+- Machines don't have restrictions on input/output sides
+    * Simulation Chamber allows Data Model and Polymer Clay input from any side, and Living/Pristine Matter output
+      to any side
+    * Loot Fabricator allows Pristine Matter input from any side, and loot item output to any side
+    * A config setting is available to revert to the original DML behavior
+- Machine blocks change appearance based on the current state of crafting (idle / running / error)
+- Several minor QoL improvements
+- Under-the-hood performance improvements
 
-# Deep Mob Learning: Relearned
-This mod is a complete rewrite from scratch of [DeepMobLearning](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning)
-by xt9/IterationFunk. The purpose of this rewrite was to add several new features (see below) that would have been difficult,
-if not impossible to implement as a modification of the original.
+---
 
-Most of the original textures (also by xt9) have been reused, though mostly modified in some way.
-
-Making this mod would not have been possible without all the work that went into the original!
+### Updating from DeepMobLearning
+This mod uses the same item and block registry names as the original, so in-place updating is possible as follows:
+- Always backup your world before changing mods!
+- Add the new mod jar and remove the old one
+- Run Minecraft once (**don't load your world!**) to generate the new config files (config/deepmobevolution/*)
+- Manually copy any changes you made to the original config (config/deepmoblearning.cfg) into the new files
+- The old config file can be deleted, it's not used by this mod
+- Now you can restart Minecraft and load your world - you're done!
 
 ---
 
@@ -44,49 +54,6 @@ into a Simulation Chamber to start producing Matter!
 
 ---
 
-### Changes compared to the original Deep Mob Learning
-- Fully JSON configurable Data Model types, tiers, and Living Matter types
-    * New types/tiers can be added or existing ones changed/removed
-    * Data Model, Pristine Matter and Living Matter textures for added types can be supplied by a resource pack or
-      through mods like ResourceLoader. Default fallback textures will be used if no matching texture files are found.
-    * Recipes for data models, as well as Living Matter products, are defined in the config files
-    * Data Model tiers can be added, removed and fully configured
-    * See SettingsGuide.txt in the mod's config folder for more info
-- Machines are redstone controllable (always on / on with signal / off with signal / always off)
-- Machines don't have restrictions on input/output sides
-    * Simulation Chamber allows Data Model and Polymer Clay input from any side, and Living/Pristine Matter output
-      to any side
-    * Loot Fabricator allows Pristine Matter input from any side, and loot item output to any side
-    * A config setting is available to revert to the original DML behavior
-- Machine blocks change appearance based on the current state of crafting (idle / running / error)
-- Several minor QoL improvements
-- Under-the-hood performance improvements
-
-*Users of [Deep Mob Learning - Blood Magic Addon](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-blood-magic-addon):*
-The addon is not compatible with this mod. I haven't decided yet whether I'll make a new version of the addon. Unfortunately,
-this means that you won't be able to use this mod for the time being.
-
----
-
-### Updating from DeepMobLearning
-This mod uses the same item and block registry names as the original, so in-place updating should be possible as follows:
-- Always backup your world before changing mods!
-- Add the new mod jar and remove the old one
-- Run Minecraft once (**don't load your world!**) to generate the new config files (config/deepmobevolution/*)
-- Manually copy any changes you made to the original config (config/deepmoblearning.cfg) into the new files
-- The old config file can be deleted, it's not used by this mod
-- Now you can restart Minecraft and load your world - you're done!
-
-**NOTE:** Because this mod uses the same mod ID ("deepmoblearning") as the original to enable in-place updating,
-Forge will complain on first world load that you "downgraded" your mod from a higher version. This warning can safely
-be ignored.
-
-### OmniFactory update guide
-Do the same as above, but also copy the custom config files from this repo into your config directory, and the
-modified SolarFlux.zs (the file that contains all DML related script stuff, e.g. changed recipes) into your scripts directory.
-
----
-
 ### Current out-of-the-box mod support
 Data Models and Living Matter for the following mods are defined in the default config:
 - **Thermal Foundation** (one combined Data Model for Thermal Elementals, i.e. Blizz, Blitz and Basalz)
@@ -94,16 +61,3 @@ Data Models and Living Matter for the following mods are defined in the default 
 - **Tinkers' Construct** (Blue Slime)
 - **Matter Overdrive** (Rogue Android)
 
----
-
-### Why no 1.15/1.16/whatever version?
-This rewrite was inspired by and originally intended for the [OmniFactory](https://www.curseforge.com/minecraft/modpacks/omnifactory)
-modpack, which uses 1.12.2. Once this version is finished, I'm planning to make a 1.16 version.
-I will *not* make 1.13/1.14/1.15 versions, so please don't ask for those.
-
----
-
-## Experiencing issues?
-Please report your issue on [GitHub](https://github.com/mustapelto/DML-Relearned), including
-- a description of the bug/issue that you're experiencing
-- a crash log (if applicable)
