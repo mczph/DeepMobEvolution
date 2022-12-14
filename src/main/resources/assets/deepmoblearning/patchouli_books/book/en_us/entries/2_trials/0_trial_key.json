@@ -12,7 +12,7 @@
     {
       "type": "text",
       "title": "How to Attune",
-      "text": "The $(item)Attunement$() of the $(item)Key$() will decide what $(l:2_trials/1_trials)Trial$() is started.$(br2)For example a $(item)Zombie$() attuned key will start a $(item)Zombie$() $(l:2_trials/1_trials)Trial$().$(br2)You $(item)Attune Keys$() by having them in your $(item)Inventory$(). The next time you slay a mob and gain $(l:0_introduction/1_data)Data$() it will $(item)Attune$() the $(item)Key$() if the mob slain matches one of the available $(item)Attunements$()."
+      "text": "The $(item)Attunement$() of the $(item)Key$() will decide what $(l:2_trials/1_trials)Trial$() is started.$(br2)For example a $(item)Zombie$() attuned key will start a $(item)Zombie$() $(l:2_trials/1_trials)Trial$().$(br2)You $(item)Attune Keys$() by having them in your $(item)Inventory$(). The next time you slay a mob and gain $(l:0_introduction/1_data)Data$() it will $(item)Attune$() the $(item)Key$() if the mob slain matches one of the available $(item)Attunements$(). The tier of the $(item)Key$() will match the tier of the data model that was in the Deep Learner."
     }
   ]
 }
