@@ -6,6 +6,7 @@ This mod is a continuation of  mustapelto's rewrite of Deep Mob Learning, adding
 ### Changes compared to the original Deep Mob Learning
 - Fully JSON configurable Data Model types, tiers, trials, and Living Matter types
     * New types, tiers and trials can be added or existing ones changed/removed
+    * Refer to the Wiki for more info on how to add them.
     * Data Model, Pristine Matter and Living Matter textures for added types can be supplied by a resource pack or
       through mods like ResourceLoader. Default fallback textures will be used if no matching texture files are found.
     * Recipes for data models, as well as Living Matter products, are defined in the config files
