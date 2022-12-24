@@ -1,10 +1,12 @@
 # Deep Mob Evolution 
 This mod is a continuation of  mustapelto's rewrite of Deep Mob Learning, adding new features (see below) that would have been impossible to implement as modification of the original.
 
-[![Curseforge](http://cf.way2muchnoise.eu/full_737252_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/dme) 
+[![Curseforge](http://cf.way2muchnoise.eu/full_737252_downloads.svg)](https://www.curseforge.com/minecraft/mc-mods/dme)
 [![Curseforge](http://cf.way2muchnoise.eu/versions/For%20MC_737252_all.svg)](https://www.curseforge.com/minecraft/mc-mods/dme)
+<img alt="Modrinth Downloads" src="https://img.shields.io/modrinth/dt/dme?color=g&label=Modrinth"><br><img alt="Discord" src="https://img.shields.io/discord/914926812948234260?label=Pansmith%27s%20Discord&logo=discord">
+<img alt="YouTube Video Views" src="https://img.shields.io/youtube/views/iQ6N5RL4qwc?color=green&label=Showcase%20Video">
 
-
+****
 - Fully JSON configurable Data Model types, tiers, trials, and Living Matter types
     * New types, tiers and trials can be added or existing ones changed/removed
     * Refer to the Wiki for more info on how to add them.
