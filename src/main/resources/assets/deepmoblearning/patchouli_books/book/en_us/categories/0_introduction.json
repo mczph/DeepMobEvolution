@@ -1,6 +1,6 @@
 {
   "name": "Introduction",
-  "description": "This chapter will cover the basics of the $(item)Mod$() so you can start accumulating $(l:0_introduction/1_data)Data$() for your $(l:0_introduction/2_data_models#data_models)Data Models$().",
+  "description": "This chapter will cover the basics of the $(item)Mod$() so you can start accumulating $(l:0_introduction/1_data)Data$() for your $(l:0_introduction/2_data_models#data_models)Data Models$(). $(br2)This guide covers what can be expected with a default config, so things like $(item)Soot Covered Redstone$() may not exist, as well as data models, data model tiers and otherwise being added, changed, or removed, depending on the modpack.",
   "icon": "deepmoblearning:deep_learner",
   "sortnum": 0
 }

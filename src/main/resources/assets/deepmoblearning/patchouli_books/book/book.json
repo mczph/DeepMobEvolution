@@ -11,7 +11,7 @@
   "link_hover_color": "00FFC0",
   "show_progress": false,
   "model": "deepmoblearning:book",
-  "landing_text": "$(dme) adds new ways to acquire loot that normally drops from mobs, the intent is to remove the need for a big laggy mobfarm.$(br2)The mod is inspired by $(l:https://minecraft.curseforge.com/projects/soul-shards-respawn)Soul shards$() and $(l:https://minecraft.curseforge.com/projects/woot)Woot$().$(br2)This guide was written with $(l:https://minecraft.curseforge.com/projects/patchouli)Patchouli$(), a $(o)neat$() mod by $(l:https://twitter.com/Vazkii)Vazkii$().",
+  "landing_text": "$(dme) adds new ways to acquire loot that normally drops from mobs, the intent is to remove the need for a big laggy mobfarm.$(br2)The mod is a continuation of a rewrite of $(l:https://minecraft.curseforge.com/projects/deep-mob-learning)DML$(), and add a variety of new features, such as removing machine sidedness and adding redstone control.",
   "macros": {
     "$(primary)": "$(#16EFF7)",
     "$(item)": "$(#ff8c00)",
