@@ -1,42 +1,42 @@
 # Item Names
-item.deepmoblearning.polymer_clay.name=Polymer Clay
-item.deepmoblearning.data_model_blank.name=Blank Data Model
-item.deepmoblearning.deep_learner.name=Deep Learner
-item.deepmoblearning.creative_model_learner.name=Creative Model Learner
-item.deepmoblearning.trial_key.name=Trial Key
+item.deepmoblearning.polymer_clay.name=聚合粘土
+item.deepmoblearning.data_model_blank.name=空白数据模型
+item.deepmoblearning.deep_learner.name=深度学习器
+item.deepmoblearning.creative_model_learner.name=创造模式模型学习器
+item.deepmoblearning.trial_key.name=测试密钥
 
-item.deepmoblearning.soot_covered_redstone.name=Soot-covered Redstone
-item.deepmoblearning.soot_covered_plate.name=Soot-covered Plate
-item.deepmoblearning.glitch_infused_ingot.name=Glitch Infused Ingot
-item.deepmoblearning.glitch_heart.name=Corrupted Glitch Heart
-item.deepmoblearning.glitch_fragment.name=Unstable Glitch Fragment
+item.deepmoblearning.soot_covered_redstone.name=炭灰红石
+item.deepmoblearning.soot_covered_plate.name=炭灰板材
+item.deepmoblearning.glitch_infused_ingot.name=故障灌注锭
+item.deepmoblearning.glitch_heart.name=损坏的故障心脏
+item.deepmoblearning.glitch_fragment.name=不稳定故障碎片
 
-item.deepmoblearning.glitch_infused_helmet.name=Glitch Infused Helmet
-item.deepmoblearning.glitch_infused_chestplate.name=Glitch Infused Chestplate
-item.deepmoblearning.glitch_infused_leggings.name=Glitch Infused Leggings
-item.deepmoblearning.glitch_infused_boots.name=Glitch Infused Greaves
-item.deepmoblearning.glitch_infused_sword.name=Glitch Infused Sword
+item.deepmoblearning.glitch_infused_helmet.name=故障灌注头盔
+item.deepmoblearning.glitch_infused_chestplate.name=故障灌注胸甲
+item.deepmoblearning.glitch_infused_leggings.name=故障灌注护腿
+item.deepmoblearning.glitch_infused_boots.name=故障灌注靴子
+item.deepmoblearning.glitch_infused_sword.name=故障灌注剑
 
 # Block Names
-tile.deepmoblearning.infused_ingot_block.name=Glitch Infused Block
-tile.deepmoblearning.machine_casing.name=Soot-covered Machine Casing
-tile.deepmoblearning.simulation_chamber.name=Simulation Chamber
-tile.deepmoblearning.extraction_chamber.name=Loot Fabricator
-tile.deepmoblearning.trial_keystone.name=Trial Keystone
+tile.deepmoblearning.infused_ingot_block.name=故障灌注块
+tile.deepmoblearning.machine_casing.name=炭灰板材机械外壳
+tile.deepmoblearning.simulation_chamber.name=模拟室
+tile.deepmoblearning.extraction_chamber.name=战利品制造器
+tile.deepmoblearning.trial_keystone.name=测试楔石
 
 # Entity Names
-entity.deepmoblearning.glitch.name=System Glitch
-entity.deepmoblearning.glitch_orb.name=Orb of the suffering AI
-entity.deepmoblearning.trial_enderman.name=Trial Enderman
-entity.deepmoblearning.trial_spider.name=Trial Spider
-entity.deepmoblearning.trial_cave_spider.name=Trial Cave Spider
-entity.deepmoblearning.trial_slime.name=Trial Slime
+entity.deepmoblearning.glitch.name=系统故障
+entity.deepmoblearning.glitch_orb.name=苦难AI之珠
+entity.deepmoblearning.trial_enderman.name=测试型末影人
+entity.deepmoblearning.trial_spider.name=测试型蜘蛛
+entity.deepmoblearning.trial_cave_spider.name=测试型洞穴蜘蛛
+entity.deepmoblearning.trial_slime.name=测试型史莱姆
 
 # General
-deepmoblearning.general.more_info=- hold %s for more info
+deepmoblearning.general.more_info=- 按住 %s 以查看更多信息
 
 # Living Matter
-deepmoblearning.living_matter.display_name=%s Matter
+deepmoblearning.living_matter.display_name=%s物质
 deepmoblearning.living_matter.consume_for_xp=%s to consume for experience.
 deepmoblearning.living_matter.consume_stack=Hold %s to consume entire stack.
 deepmoblearning.living_matter.xp=Experience per item: %s
@@ -233,4 +233,9 @@ deepmoblearning.affix.speed.name=Speed
 deepmoblearning.affix.thunderdome.name=THUNDERDOME
 
 # Creative Tab
-itemGroup.deepmoblearning=Deep Mob Evolution
+itemGroup.deepmoblearning=深度怪物进化
+
+#Guide Book
+item.deepmoblearning.guide_book.name=深度怪物进化
+item.deepmoblearning.guide_book.subtitle=一本详细的指导手册
+item.deepmoblearning.guide_book.desc=$(dme) 增加新的获取怪物普通战利品的方式，目的是取代超大超卡的刷怪场。$(br2)该mod是$(l:https://minecraft.curseforge.com/projects/deep-mob-learning)DML$()重写的延续，并增加了各种新功能，如去除机器的侧向和增加红石控制。
