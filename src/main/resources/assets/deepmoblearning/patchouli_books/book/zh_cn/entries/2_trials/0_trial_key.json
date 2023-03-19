@@ -12,7 +12,7 @@
     {
       "type": "text",
       "title": "如何调谐",
-      "text": " $(item)秘钥$()的$(item)调谐$()将决定$(l:2_trials/1_trials)试炼$()的内容。$(br2)例如，$(item)僵尸$()调谐到了秘钥上，就会开始$(item)僵尸$() $(l:2_trials/1_trials)试炼$()。$(br2)将$(item)秘钥$()放在$(item)背包$()中，下一次获取$(l:0_introduction/1_data)数据$()的过程中会将$(item)秘钥$()$(item)调谐$()到相应怪物上，前提是此怪物在可调谐列表上。"
+      "text": " $(item)秘钥$()的$(item)调谐$()将决定$(l:2_trials/1_trials)试炼$()的内容。$(br2)例如，$(item)僵尸$()调谐到了秘钥上，就会开始$(item)僵尸$() $(l:2_trials/1_trials)试炼$()。$(br2)将$(item)秘钥$()放在$(item)背包$()中，下一次获取$(l:0_introduction/1_data)数据$()的过程中会将$(item)秘钥$()$(item)调谐$()到相应怪物上，前提是此怪物在可调谐列表上。$(item)Key$()的层级将与深度学习器中数据模型的层级相匹配。"
     }
   ]
 }
