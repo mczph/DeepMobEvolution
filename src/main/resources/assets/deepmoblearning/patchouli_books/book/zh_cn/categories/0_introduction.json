@@ -1,6 +1,6 @@
 {
     "name": "介绍",
-    "description": "此章节会介绍本$(item)Mod$()的基础内容，你可以开始为你的$(l:0_introduction/2_data_models#data_models)数据模型$()积攒$(l:0_introduction/1_data)数据$()了。",
+    "description": "本章将介绍$(item)Mod$()的基础知识，以便你可以开始为你的$(l:0_introduction/1_data)Data$()积累$(l:0_introduction/2_data_models#data_models)数据模型$()。$(br2)本指南涵盖了默认配置下的预期，所以像$(item)炭灰红石$()这样的东西可能不存在，以及数据模型、数据模型等级和其他被添加、改变或删除的东西，这取决于整合包。",
     "icon": "deepmoblearning:deep_learner",
     "sortnum": 0
 }
