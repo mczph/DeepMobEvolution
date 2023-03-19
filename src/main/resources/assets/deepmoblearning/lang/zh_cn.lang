@@ -1,0 +1,236 @@
+# Item Names
+item.deepmoblearning.polymer_clay.name=Polymer Clay
+item.deepmoblearning.data_model_blank.name=Blank Data Model
+item.deepmoblearning.deep_learner.name=Deep Learner
+item.deepmoblearning.creative_model_learner.name=Creative Model Learner
+item.deepmoblearning.trial_key.name=Trial Key
+
+item.deepmoblearning.soot_covered_redstone.name=Soot-covered Redstone
+item.deepmoblearning.soot_covered_plate.name=Soot-covered Plate
+item.deepmoblearning.glitch_infused_ingot.name=Glitch Infused Ingot
+item.deepmoblearning.glitch_heart.name=Corrupted Glitch Heart
+item.deepmoblearning.glitch_fragment.name=Unstable Glitch Fragment
+
+item.deepmoblearning.glitch_infused_helmet.name=Glitch Infused Helmet
+item.deepmoblearning.glitch_infused_chestplate.name=Glitch Infused Chestplate
+item.deepmoblearning.glitch_infused_leggings.name=Glitch Infused Leggings
+item.deepmoblearning.glitch_infused_boots.name=Glitch Infused Greaves
+item.deepmoblearning.glitch_infused_sword.name=Glitch Infused Sword
+
+# Block Names
+tile.deepmoblearning.infused_ingot_block.name=Glitch Infused Block
+tile.deepmoblearning.machine_casing.name=Soot-covered Machine Casing
+tile.deepmoblearning.simulation_chamber.name=Simulation Chamber
+tile.deepmoblearning.extraction_chamber.name=Loot Fabricator
+tile.deepmoblearning.trial_keystone.name=Trial Keystone
+
+# Entity Names
+entity.deepmoblearning.glitch.name=System Glitch
+entity.deepmoblearning.glitch_orb.name=Orb of the suffering AI
+entity.deepmoblearning.trial_enderman.name=Trial Enderman
+entity.deepmoblearning.trial_spider.name=Trial Spider
+entity.deepmoblearning.trial_cave_spider.name=Trial Cave Spider
+entity.deepmoblearning.trial_slime.name=Trial Slime
+
+# General
+deepmoblearning.general.more_info=- hold %s for more info
+
+# Living Matter
+deepmoblearning.living_matter.display_name=%s Matter
+deepmoblearning.living_matter.consume_for_xp=%s to consume for experience.
+deepmoblearning.living_matter.consume_stack=Hold %s to consume entire stack.
+deepmoblearning.living_matter.xp=Experience per item: %s
+
+# Pristine Matter
+deepmoblearning.pristine_matter.display_name=Pristine %s Matter
+deepmoblearning.pristine_matter.loot_items=Available loot items:
+
+# Data Model
+deepmoblearning.data_model.display_name=%s Data Model
+deepmoblearning.data_model.type=Type: %s
+deepmoblearning.data_model.tier=Tier: %s
+deepmoblearning.data_model.data_collected=Data collected: %s/%s
+deepmoblearning.data_model.kill_multiplier=Data per kill: %s
+deepmoblearning.data_model.rf_cost=Simulation cost: %s RF/t
+deepmoblearning.data_model.cannot_simulate=Data Model cannot be used in a Simulation Chamber at this tier.
+deepmoblearning.data_model.reached_tier=%s reached the %s tier
+deepmoblearning.data_model.disabled=Data Model Disabled
+
+# Deep Learner
+deepmoblearning.deep_learner.hud=Will display a HUD when in main hand or offhand and populated with data models
+deepmoblearning.deep_learner.contains=Contains the following models
+
+deepmoblearning.deep_learner.heading_name=Name
+deepmoblearning.deep_learner.heading_information=Information
+deepmoblearning.deep_learner.model_tier=Model Tier: %s
+deepmoblearning.deep_learner.defeated=%s defeated: %s
+deepmoblearning.deep_learner.required=Defeat %s more to reach %s
+deepmoblearning.deep_learner.maximum=Maximum tier achieved
+deepmoblearning.deep_learner.health_points=Health points
+
+deepmoblearning.deep_learner.no_model.line_1=No Data Model Found
+deepmoblearning.deep_learner.no_model.line_2=Please insert a Data Model!
+deepmoblearning.deep_learner.no_model.line_3=Your Data Models will collect data
+deepmoblearning.deep_learner.no_model.line_4=when they are placed in the Deep Learner.
+deepmoblearning.deep_learner.no_model.line_5=In order to collect data, you must
+deepmoblearning.deep_learner.no_model.line_6=deliver the killing blow.
+
+deepmoblearning.deep_learner.button_next=Next data model
+deepmoblearning.deep_learner.button_prev=Previous data model
+
+# Data HUD Overlay
+deepmoblearning.data_overlay.kills_needed=%s kills needed
+
+# Creative Model Learner
+deepmoblearning.creative_model_learner.description=A creative item that can change levels of data models inside a Deep Learner.
+deepmoblearning.creative_model_learner.increase_tier=%s to increase tier.
+deepmoblearning.creative_model_learner.decrease_tier=%s to decrease tier.
+deepmoblearning.creative_model_learner.increase_kills=%s to simulate kills.
+
+# Trial Key
+deepmoblearning.trial_key.attunement_message=%s was attuned to: %s
+deepmoblearning.trial_key.cannot_attune_message=Can't attune the %s - there is no Trial for %s
+deepmoblearning.trial_key.tooltip.attunement=Attuned to: %s
+deepmoblearning.trial_key.tooltip.tier=Tier: %s
+deepmoblearning.trial_key.tooltip.affixes=Affixes: %s
+deepmoblearning.trial_key.tooltip.no_affixes=Trial has no affixes
+deepmoblearning.trial_key.tooltip.affixes_faulty=Faulty level trials have no affixes.
+deepmoblearning.trial_key.tooltip.affix_info=Read more about each affix in the Guidebook
+deepmoblearning.trial_key.tooltip.not_attuned=Currently not attuned
+deepmoblearning.trial_key.tooltip.available_attunements=Available attunements:
+
+# Soot-Covered Redstone
+deepmoblearning.soot_covered_redstone.tooltip_1=Crafted by crushing %s against
+deepmoblearning.soot_covered_redstone.tooltip_2=a %s (%s)
+
+# Glitch Armor
+deepmoblearning.glitch_armor.tooltip_1=Bonus while full set is equipped
+deepmoblearning.glitch_armor.tooltip_2=(Bonuses are disabled during Trials)
+deepmoblearning.glitch_armor.tooltip_3=  1. %s chance to drop %s Pristine Matter
+deepmoblearning.glitch_armor.tooltip_4=     when a Data Model gains Data.
+deepmoblearning.glitch_armor.tooltip_5=  2. Flight and immunity against fall damage
+
+# Glitch Ingot
+deepmoblearning.glitch_ingot.tooltip_1=Made by stabilizing %s
+deepmoblearning.glitch_ingot.tooltip_2=More info in JEI or the Guidebook
+deepmoblearning.glitch_ingot.jei_info_1=TLDR: Drop some fragments, lapis and gold ingots into a body of water and hope for the best
+deepmoblearning.glitch_ingot.jei_info_2=You've found that lapis is a good stabilization agent for Unstable glitch fragments.
+deepmoblearning.glitch_ingot.jei_info_3=After the fragments are stable, they desperately seek out a material to latch on to, you think that gold might be strong enough as a host.
+deepmoblearning.glitch_ingot.jei_info_4=The entire process is delicate, it needs to be performed in water or the materials wont bind properly.
+
+# Glitch Heart
+deepmoblearning.glitch_heart.tooltip=Drops from System Glitches
+
+# Glitch Fragment
+deepmoblearning.glitch_fragment.tooltip_1=Crafted by crushing a %s
+deepmoblearning.glitch_fragment.tooltip_2=against some %s (%s)
+deepmoblearning.glitch_fragment.tooltip_3=Yields %d fragments per crushed heart
+
+# Glitch Sword
+deepmoblearning.glitch_sword.tooltip_1=Bonus: Quick Learner
+deepmoblearning.glitch_sword.tooltip_2=(Bonuses are disabled during Trials)
+deepmoblearning.glitch_sword.tooltip_3=The Data gained from the demise of a mob is doubled.
+deepmoblearning.glitch_sword.tooltip_4=When Data is gained, there is also a small chance
+deepmoblearning.glitch_sword.tooltip_5=that the sword will get a permanent damage increase.
+deepmoblearning.glitch_sword.tooltip_6=Current damage increase: %s (Max %s)
+deepmoblearning.glitch_sword.max_damage_reached=Your %s has now reached peak performance!
+deepmoblearning.glitch_sword.damage_increased=Your %s grows in power!
+
+# Simulation Chamber
+deepmoblearning.simulation_chamber.simulation_text.launching=Launching runtime
+deepmoblearning.simulation_chamber.simulation_text.iteration=Iteration #%d started
+deepmoblearning.simulation_chamber.simulation_text.loading=Loading model from chip memory
+deepmoblearning.simulation_chamber.simulation_text.assessing=Assessing threat level
+deepmoblearning.simulation_chamber.simulation_text.engaged=Engaged enemy
+deepmoblearning.simulation_chamber.simulation_text.pristine=Pristine procurement
+deepmoblearning.simulation_chamber.simulation_text.pristine_success=succeeded
+deepmoblearning.simulation_chamber.simulation_text.pristine_failure=failed
+deepmoblearning.simulation_chamber.simulation_text.processing=Processing results
+
+deepmoblearning.simulation_chamber.error_text.error=ERROR: Cannot begin simulation
+deepmoblearning.simulation_chamber.error_text.no_data_model_1=No data model found
+deepmoblearning.simulation_chamber.error_text.no_data_model_2=Please insert data model
+deepmoblearning.simulation_chamber.error_text.model_cannot_simulate_1=Invalid amount of data in model
+deepmoblearning.simulation_chamber.error_text.model_cannot_simulate_2=Please insert valid model
+deepmoblearning.simulation_chamber.error_text.no_polymer=Missing polymer medium
+deepmoblearning.simulation_chamber.error_text.no_energy=System energy levels critical
+deepmoblearning.simulation_chamber.error_text.output_full=Output buffer full
+
+deepmoblearning.simulation_chamber.redstone_deactivated_1=System deactivated
+deepmoblearning.simulation_chamber.redstone_deactivated_2=by redstone signal
+
+deepmoblearning.simulation_chamber.data_model_info.tier=Tier
+deepmoblearning.simulation_chamber.data_model_info.iterations=Iterations
+deepmoblearning.simulation_chamber.data_model_info.pristine=Pristine chance
+
+deepmoblearning.simulation_chamber.tooltip.model_data=%s data collected
+deepmoblearning.simulation_chamber.tooltip.model_max=Data model has reached the max tier
+deepmoblearning.simulation_chamber.tooltip.model_missing=Machine is missing a data model
+deepmoblearning.simulation_chamber.tooltip.model_cannot_simulate=Cannot run simulation at current data model tier
+deepmoblearning.simulation_chamber.tooltip.sim_cost=Simulation with current data model uses %d RF/t
+
+# Loot Fabricator
+deepmoblearning.loot_fabricator.tooltip.crafting_cost=Operational cost: %d RF/t
+deepmoblearning.loot_fabricator.tooltip.deselect=Click to deselect output item
+
+deepmoblearning.loot_fabricator.error.no_energy=Not enough energy for crafting
+deepmoblearning.loot_fabricator.error.redstone=Machine disabled by redstone signal
+deepmoblearning.loot_fabricator.error.no_pristine=No Pristine Matter in input buffer
+deepmoblearning.loot_fabricator.error.no_output_selected=No output item selected
+deepmoblearning.loot_fabricator.error.output_full=Output buffer full
+
+# Trial Keystone
+deepmoblearning.trial_keystone.start_button.tooltip=Start Trial
+
+deepmoblearning.trial_keystone.trial_active_1=Trial is currently active
+deepmoblearning.trial_keystone.trial_active_2=Rewards will drop upon completion
+deepmoblearning.trial_keystone.trial_active_3=Current wave: %d/%d
+deepmoblearning.trial_keystone.area_blocked_1=Something is blocking the Trial area
+deepmoblearning.trial_keystone.area_blocked_2=Make sure a 15x15x10 area around
+deepmoblearning.trial_keystone.area_blocked_3=and above the Trial Keystone is
+deepmoblearning.trial_keystone.area_blocked_4=clear and the floor below the
+deepmoblearning.trial_keystone.area_blocked_5=area is made up of full blocks.
+deepmoblearning.trial_keystone.no_trial_key_1=Please insert an attuned Trial Key
+deepmoblearning.trial_keystone.no_trial_key_2=to start a Trial!
+
+deepmoblearning.trial_keystone.trial_type=Trial type:
+deepmoblearning.trial_keystone.tier=Tier:
+deepmoblearning.trial_keystone.waves=Waves:
+deepmoblearning.trial_keystone.rewards=Rewards:
+deepmoblearning.trial_keystone.affixes=Affixes:
+
+# Redstone Mode Button
+deepmoblearning.redstone_mode.always_on=Always on
+deepmoblearning.redstone_mode.high_on=On with redstone signal
+deepmoblearning.redstone_mode.high_off=Off with redstone signal
+deepmoblearning.redstone_mode.always_off=Always off
+
+# Page select button
+deepmoblearning.button_page_select.next=Next page
+deepmoblearning.button_page_select.prev=Previous page
+
+# Trials
+deepmoblearning.trial.message.player_left=You left the Trial!
+deepmoblearning.trial.message.aborted=Trial aborted due to unknown reasons
+deepmoblearning.trial.message.failed=Trial failed, all participants have died/left the arena
+deepmoblearning.trial.message.completed=Good job! Collect your reward from the keystone
+deepmoblearning.trial.message.wave=Wave
+deepmoblearning.trial.message.wave_number=Wave %d
+deepmoblearning.trial.message.next_wave=Next wave in: %d
+deepmoblearning.trial.message.wave_cleared=Wave cleared
+deepmoblearning.trial.message.enemies_left=%d to go
+deepmoblearning.trial.message.opponents=Opponents
+deepmoblearning.trial.message.glitch_1=! Glitch Alert !
+deepmoblearning.trial.message.glitch_2=Deal with it before it becomes a problem
+
+# Affixes
+deepmoblearning.affix.blaze_invaders.name=Blaze Invaders
+deepmoblearning.affix.empowered_glitches.name=Empowered Glitches
+deepmoblearning.affix.knockback_immunity.name=Knockback Immunity
+deepmoblearning.affix.loot_hoarder.name=Loot Hoarders
+deepmoblearning.affix.regen_party.name=Regen Party
+deepmoblearning.affix.speed.name=Speed
+deepmoblearning.affix.thunderdome.name=THUNDERDOME
+
+# Creative Tab
+itemGroup.deepmoblearning=Deep Mob Evolution
