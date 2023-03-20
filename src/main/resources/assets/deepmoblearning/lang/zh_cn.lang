@@ -37,55 +37,55 @@ deepmoblearning.general.more_info=- 按住 %s 以查看更多信息
 
 # Living Matter
 deepmoblearning.living_matter.display_name=%s物质
-deepmoblearning.living_matter.consume_for_xp=%s to consume for experience.
-deepmoblearning.living_matter.consume_stack=Hold %s to consume entire stack.
-deepmoblearning.living_matter.xp=Experience per item: %s
+deepmoblearning.living_matter.consume_for_xp=按下%s消耗以获得经验。
+deepmoblearning.living_matter.consume_stack=按住%s消耗整组。
+deepmoblearning.living_matter.xp=每物品所获得经验：%s
 
 # Pristine Matter
-deepmoblearning.pristine_matter.display_name=Pristine %s Matter
-deepmoblearning.pristine_matter.loot_items=Available loot items:
+deepmoblearning.pristine_matter.display_name=原始%s物质
+deepmoblearning.pristine_matter.loot_items=可用战利品：
 
 # Data Model
-deepmoblearning.data_model.display_name=%s Data Model
-deepmoblearning.data_model.type=Type: %s
-deepmoblearning.data_model.tier=Tier: %s
-deepmoblearning.data_model.data_collected=Data collected: %s/%s
-deepmoblearning.data_model.kill_multiplier=Data per kill: %s
-deepmoblearning.data_model.rf_cost=Simulation cost: %s RF/t
-deepmoblearning.data_model.cannot_simulate=Data Model cannot be used in a Simulation Chamber at this tier.
-deepmoblearning.data_model.reached_tier=%s reached the %s tier
-deepmoblearning.data_model.disabled=Data Model Disabled
+deepmoblearning.data_model.display_name=%s数据模型
+deepmoblearning.data_model.type=类型：%s
+deepmoblearning.data_model.tier=等级：%s
+deepmoblearning.data_model.data_collected=收集的数据：%s/%s
+deepmoblearning.data_model.kill_multiplier=每次杀死数据：%s
+deepmoblearning.data_model.rf_cost=模拟成本：%s RF/t
+deepmoblearning.data_model.cannot_simulate=这个层级的数据模型不能在模拟室中使用。
+deepmoblearning.data_model.reached_tier=%s达到了%s等级
+deepmoblearning.data_model.disabled=数据模型已禁用
 
 # Deep Learner
-deepmoblearning.deep_learner.hud=Will display a HUD when in main hand or offhand and populated with data models
-deepmoblearning.deep_learner.contains=Contains the following models
+deepmoblearning.deep_learner.hud=在主手或副手时将显示填充的数据模型的HUD
+deepmoblearning.deep_learner.contains=包含以下模型
 
-deepmoblearning.deep_learner.heading_name=Name
-deepmoblearning.deep_learner.heading_information=Information
-deepmoblearning.deep_learner.model_tier=Model Tier: %s
-deepmoblearning.deep_learner.defeated=%s defeated: %s
-deepmoblearning.deep_learner.required=Defeat %s more to reach %s
-deepmoblearning.deep_learner.maximum=Maximum tier achieved
-deepmoblearning.deep_learner.health_points=Health points
+deepmoblearning.deep_learner.heading_name=名称
+deepmoblearning.deep_learner.heading_information=信息
+deepmoblearning.deep_learner.model_tier=模型等级：%s
+deepmoblearning.deep_learner.defeated=%s已击败：%s
+deepmoblearning.deep_learner.required=再击败%s以达到%s
+deepmoblearning.deep_learner.maximum=已达到最高级
+deepmoblearning.deep_learner.health_points=生命值
 
-deepmoblearning.deep_learner.no_model.line_1=No Data Model Found
-deepmoblearning.deep_learner.no_model.line_2=Please insert a Data Model!
-deepmoblearning.deep_learner.no_model.line_3=Your Data Models will collect data
-deepmoblearning.deep_learner.no_model.line_4=when they are placed in the Deep Learner.
-deepmoblearning.deep_learner.no_model.line_5=In order to collect data, you must
-deepmoblearning.deep_learner.no_model.line_6=deliver the killing blow.
+deepmoblearning.deep_learner.no_model.line_1=未找到数据模型
+deepmoblearning.deep_learner.no_model.line_2=请插入数据模型！
+deepmoblearning.deep_learner.no_model.line_3=你的数据模型被放置在
+deepmoblearning.deep_learner.no_model.line_4=深度学习者时会收集数据。
+deepmoblearning.deep_learner.no_model.line_5=为了收集数据，你必须
+deepmoblearning.deep_learner.no_model.line_6=给予致命一击。
 
-deepmoblearning.deep_learner.button_next=Next data model
-deepmoblearning.deep_learner.button_prev=Previous data model
+deepmoblearning.deep_learner.button_next=下一个数据模型
+deepmoblearning.deep_learner.button_prev=当前数据模型
 
 # Data HUD Overlay
-deepmoblearning.data_overlay.kills_needed=%s kills needed
+deepmoblearning.data_overlay.kills_needed=需要%s击杀数
 
 # Creative Model Learner
-deepmoblearning.creative_model_learner.description=A creative item that can change levels of data models inside a Deep Learner.
-deepmoblearning.creative_model_learner.increase_tier=%s to increase tier.
-deepmoblearning.creative_model_learner.decrease_tier=%s to decrease tier.
-deepmoblearning.creative_model_learner.increase_kills=%s to simulate kills.
+deepmoblearning.creative_model_learner.description=一个可以在深度学习器中改变数据模型等级的创造模式物品。
+deepmoblearning.creative_model_learner.increase_tier=%s以提高等级。
+deepmoblearning.creative_model_learner.decrease_tier=%s以降低等级。
+deepmoblearning.creative_model_learner.increase_kills=%s以模拟击杀。
 
 # Trial Key
 deepmoblearning.trial_key.attunement_message=%s was attuned to: %s
